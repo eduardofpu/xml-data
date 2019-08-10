@@ -22,13 +22,9 @@ import java.io.IOException;
 public class PessoaServiceImpl implements PessoaService {
 
 
-    private static final String DIR = System.getProperty("user.dir");
     private static final String USER = System.getProperty("user.home");
     private static final String SEPARATOR = System.getProperty("file.separator");
     private static final String DOWNLOADS = "Downloads" + SEPARATOR;
-
-
-    private static final String CAMINHO_XML = DIR + SEPARATOR + "src" + SEPARATOR + "main" + SEPARATOR + "resources" + SEPARATOR + "xml" + SEPARATOR;
 
     private PessoaRepository pessoaRepository;
 
